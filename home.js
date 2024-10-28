@@ -1,38 +1,38 @@
 let menuItems = document.querySelectorAll(".menuItems");
 let overviewItems = document.querySelectorAll(".overviewItems");
 overviewItems[0].addEventListener("click", () => {
-    window.location.assign("/Templates/product.html");
+    window.location.assign("product.html");
 });
 overviewItems[1].addEventListener("click", () => {
-    window.location.assign("/Templates/billing.html");
+    window.location.assign("billing.html");
 });
 overviewItems[2].addEventListener("click", () => {
-    window.location.assign("/Templates/delivery.html");
+    window.location.assign("delivery.html");
 });
 overviewItems[3].addEventListener("click", () => {
-    window.location.assign("/Templates/sales.html");
+    window.location.assign("sales.html");
 });
 overviewItems[4].addEventListener("click", () => {
-    window.location.assign("/Templates/payments.html");
+    window.location.assign("payments.html");
 });
 overviewItems[5].addEventListener("click", () => {
-    window.location.assign("/Templates/transaction.html");
+    window.location.assign("/transaction.html");
 });
 menuItems[0].addEventListener("click", () => {
-    window.location.assign("/Templates/profile.html");
+    window.location.assign("profile.html");
 });
 menuItems[1].addEventListener("click", () => {
-    window.location.assign("/Templates/ranking.html");
+    window.location.assign("ranking.html");
 });
 menuItems[2].addEventListener("click", () => {
-    window.location.assign("/Templates/rating.html");
+    window.location.assign("rating.html");
 });
 menuItems[3].addEventListener("click", () => {
-    window.location.assign("/Templates/order.html");
+    window.location.assign("order.html");
 });
 menuItems[4].addEventListener("click", () => {
-    window.location.assign("/Templates/setting.html");
+    window.location.assign("setting.html");
 });
 menuItems[5].addEventListener("click",()=>{
-    window.location.assign("/Templates/index.html");
+    window.location.assign("index.html");
 });
