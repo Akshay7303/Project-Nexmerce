@@ -24,7 +24,7 @@ document.getElementById('submit_1').addEventListener('click', async function(e) 
     try {
         await signInWithEmailAndPassword(auth, email, password);
         // Redirect to a different page after successful sign-in
-        window.location.href = '/Templates/home.html'; // Change to your dashboard page
+        window.location.href = 'home.html'; // Change to your dashboard page
     } catch (error) {
         document.getElementById('error-message').innerText = error.message;
     }
