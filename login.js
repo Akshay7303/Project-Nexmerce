@@ -27,5 +27,6 @@ document.getElementById('submit_1').addEventListener('click', async function(e) 
         window.location.href ="home.html"; // Change to your dashboard page
     } catch (error) {
         document.getElementById('error-message').innerText = error.message;
+      alert(errorMessage)
     }
 });
