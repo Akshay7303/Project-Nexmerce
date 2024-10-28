@@ -16,7 +16,7 @@ overviewItems[4].addEventListener("click", () => {
     window.location.assign("payments.html");
 });
 overviewItems[5].addEventListener("click", () => {
-    window.location.assign("/transaction.html");
+    window.location.assign("transaction.html");
 });
 menuItems[0].addEventListener("click", () => {
     window.location.assign("profile.html");
