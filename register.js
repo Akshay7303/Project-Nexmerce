@@ -32,7 +32,7 @@ createUserWithEmailAndPassword(auth, email, password)
     // Signed up 
     const user = userCredential.user;
     alert("Creating account......")
-    window.location.href="/Templates/business.html";
+    window.location.href="business.html";
     // ...
   })
   .catch((error) => {
